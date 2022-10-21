@@ -4,6 +4,7 @@
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: -999;
 }
 .dot{
   width:35px;
@@ -26,16 +27,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid red;
+  padding: 40px 10px 0px 10px;
+  border-radius: 10px;
 }
 
 .right-items{
   width: 50%;
   height: 100%;
-  border: 2px solid white;
+  padding: 0px 40px;
+  margin-left: 20px;
 }
-
+.right-items> p{
+  font-size: 28px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
 .left-items{
   width: 50%;
   height: 100%;
-  /* border: 1px solid white; */
+  margin-right: 20px;
+}
+.left-items img{
+  width: 100%;
+}
+.openText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }

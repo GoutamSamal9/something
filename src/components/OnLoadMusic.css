@@ -3,6 +3,23 @@ audio{
     width: 0;
 }
 .musicControlButton{
-    background: red;
-    width: 200px;
+    background: black;
+    width: 100%;
+    z-index: 999;
+    color: white;
+    padding: 9px 5px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid red;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-family: 'Cormorant Upright', serif;
+    text-align: center;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+
+.musicControlButton:hover{
+    box-shadow: 0px 1px 6px 0px #ff0000;
 }
