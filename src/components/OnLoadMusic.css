@@ -1,0 +1,8 @@
+audio{
+    visibility: hidden;
+    width: 0;
+}
+.musicControlButton{
+    background: red;
+    width: 200px;
+}
