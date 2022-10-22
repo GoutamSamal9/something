@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      {innerWidth < 900 ? (
+      {innerWidth < 100 ? (
         <div className="openText">
           <h1>
             My dear pechi😘... <br></br>
@@ -39,7 +39,8 @@ function App() {
               <div className="right-items">
                 <p>
                   My dear Gelu❤️, <br></br>
-                  Everting...<br></br> Thanks for...<br></br> And tenderness...
+                  Everything...<br></br> Thanks for...<br></br> And
+                  tenderness...
                   <br></br> You were always there, listening, understanding with
                   your own heart.. <br></br>Healthy or sick..<br></br> No matter
                   when I'm happy or sad.. <br></br>Thank you for being by my
