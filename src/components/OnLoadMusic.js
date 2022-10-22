@@ -20,7 +20,7 @@ const OnLoadMusic = () => {
         onClick={handelClick}
         title="click here"
       >
-        give me a kiss 👄
+        Gelu Kissi😚
       </button>
       <audio
         src="https://pwdown.com/8990/03 Tu Hi Tu - KICK (Mohd. Irfan).mp3"
